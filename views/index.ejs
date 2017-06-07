@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <title>Chat Application</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body ng-controller="MainController">
+  <div>
+    <ul>
+      <li ng-repeat="message in messages track by $index">
+        {{message}}
+      </li>
+    </ul>
+    <form>
+      <input id="message" autocomplete="off" ng-model="message" />
+      <button ng-click="sendMessage(message)">Send</button>
+    </form>
+  </div>
+  <script src="angular/angular.js"></script>
+  <script src="socket.io-client/dist/socket.io.js"></script>
+  <script src="javascripts/app.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "chat-application",
+  "description": "",
+  "main": "",
+  "authors": [
+    "sandip"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io": "^2.0.2",
+    "angular": "^1.6.4",
+    "socket.io-client": "^2.0.2"
+  }
+}
