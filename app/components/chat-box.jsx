@@ -1,7 +1,6 @@
-/* global io */
 import React from 'react'
 
-var socket = io()
+var socket = require('socket.io-client')()
 
 var ChatBox = class ChatBox extends React.Component {
   constructor () {
