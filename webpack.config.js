@@ -6,6 +6,12 @@ module.exports = {
     filename: 'bundle.js',
     path: path.join(__dirname, 'public', 'app')
   },
+  cache: true,
+  devtool: 'source-map',
+  stats: {
+    colors: true,
+    reasons: true
+  },
   module: {
     loaders: [
       {
