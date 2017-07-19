@@ -25766,26 +25766,7 @@ var ChatBox = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        this.state.messages.map(function (msg, i) {
-          return _react2.default.createElement(
-            'div',
-            { key: i },
-            _react2.default.createElement(
-              'span',
-              null,
-              msg
-            )
-          );
-        }),
-        _react2.default.createElement(
-          'form',
-          { onSubmit: this.handleSubmit.bind(this) },
-          _react2.default.createElement('input', { name: 'msg-box', value: this.state.currentMsg, onChange: this.handleChange.bind(this) })
-        )
-      );
+      return _react2.default.createElement('div', null);
     }
   }]);
 

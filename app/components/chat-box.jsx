@@ -33,7 +33,7 @@ var ChatBox = class ChatBox extends React.Component {
   }
   render () {
     return <div>
-      {
+      {/* {
         this.state.messages.map((msg, i) => {
           return <div key={i}>
             <span>{msg}</span>
@@ -42,7 +42,7 @@ var ChatBox = class ChatBox extends React.Component {
       }
       <form onSubmit={this.handleSubmit.bind(this)}>
         <input name='msg-box' value={this.state.currentMsg} onChange={this.handleChange.bind(this)} />
-      </form>
+      </form> */}
     </div>
   }
 }
